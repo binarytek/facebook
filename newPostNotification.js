@@ -22,10 +22,13 @@ var options = {
     unreadMessageInterval: 200, // in milliseconds, how often to check for unread fb notifications
     soundLoopInterval: 5000, // in milliseconds, how often to repeat the sound until notification is closed.
 
-    // if you want to receive email for every new notification, you will have to:
-    // 1) set "sendEmail" to true
-    // 2) create an account at http://www.emailjs.com/
-    // 3) create an email template and save its name in "emailTemplate"
+    /**
+     * if you want to receive email for every new notification, you will have to:
+     * 1) set "sendEmail" to true
+     * 2) create an account at http://www.emailjs.com/
+     * 3) create an email template and save its name in "emailTemplate" . In the email template you set the receiver.
+     * 4) create email service and save its name it "emailService".
+     */
     email: {
         sendEmail: false,
         emailJsUrl: "https://cdn.emailjs.com/dist/email.min.js",
