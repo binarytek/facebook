@@ -3,6 +3,7 @@
  * Automatically checks every second whether a new unread fb notification for the given group exist.
  * If yes, then opens the group page url and
  * displays a desktop notification for the new group post and play a looped sound until the notification is closed.
+ * Optionally you can receive the notifications per email.
  *
  * INSTALL:
  * 1) Install browser extension that supports adding Javascript to a website, like Styler:
