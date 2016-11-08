@@ -33,7 +33,7 @@ var options = {
         sendEmail: false,
         emailJsUrl: "https://cdn.emailjs.com/dist/email.min.js",
         emailService: "gmail",
-        emailTemplate: "template_ptdUWfM4"
+        emailTemplate: "template_YOUR_TEMPLATE_ID"
     }
 };
 
